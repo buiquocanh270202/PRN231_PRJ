@@ -1,0 +1,86 @@
+﻿{
+    "ConsumerID": "788925684c3a48d78893f9ca881c4e84",
+    "ConsumerSecret": "e28ddf50b42c4e06bb612864e2ed3769",
+    "PrivateKey": "PFJTQUtleVZhbHVlPjxNb2R1bHVzPnFwcDBiT0NJTFNHLzE0ck1vc0lUY2dpa1JmYW51bktCTXE0bGNEN2dYeSthNHMwWWpUSEQ3RlNzVzlrSjl0M1BxN0RMWTROYnowSFNIdHlCcEVQTjErYVcxUHR3aW5UU3RVODRNbFVtQnI1NDZtNWJ4VU9pRHNJNE1pSGhJM3l4ZW0yTkV5SWI4SUthZzVLUm5paC9EM1hXclFFSFA5SkVPVUl0aXhKOTlhVT08L01vZHVsdXM+PEV4cG9uZW50PkFRQUI8L0V4cG9uZW50PjxQPjRIcHJjQ2pLRHhPU0VUMndxM0phRjlwMTgzcjQ5T1V4Y2dPUzFaYmhxQlNOeitUQ2ZtUFFVaEtadFltSFB4Tld0Zzk5cSszdncyYWF6Vmg1Qm0zSm1RPT08L1A+PFE+d285Vkduc0NudVFQMDJaMjZ6VlBoSjdXUTlZWFJLcHFkcFJRSHcrajJiQ2N0K1NIRzd6eVd1UjZtd051bTh3TTRXRE5sVEUvL0RCKzVpVFNtcTdMN1E9PTwvUT48RFA+WFMrMHhoekl0TFdGSDQ4aWRpbkVhTDZSMUgrcU5jK25WUk5TczBRdGJSOExOOUJaUlNxZVlsUENaM0F1S3VzV1JnSHNRNkZFdFRNMDlDWFVKKzBQa1E9PTwvRFA+PERRPndSTldwRUhBbHdmQ1FNc2xaa053Vnk3OWVUSmp3dXZQWFQvUHh4TlJTZjMvZUdxY1BjV2pTTm9HWmdEZzZsRnowdEdyRXN4ZU1CbThSUTN6eGplQy9RPT08L0RRPjxJbnZlcnNlUT5RU0Q2Wk02QTBLSXlQenA1cVFHWnJPTkVoZVQ1NnNiUGN5MnIwT2ltQVN2T0MxNXZrd0FxZ1h5ZXFoL0w3QXJvdDBYYlMrdFg0RlpYeE4yaHVNN1RPdz09PC9JbnZlcnNlUT48RD5YK2N0dFpyTzBsZ2JpT1lzdlAzT2dwY2JDWDFyc21MMS8vQm5lVjdQTUpNSlJaKzN3bitNUE1rb2p3VkdGYkdCTVduVUc5L1c5MzV2eVF0NkVVWlFhcmRVa240S2lsQkVEUGtudVpaMllKSmhLS2FXYlVqNUwvam9wam10cnV0RWRuR2FDeXRXNXVBbTNMOUc4UG1aM2JySzRQNUpUT2ZDekcrZzRqa3hYU0U9PC9EPjwvUlNBS2V5VmFsdWU+",
+    "TwoFactorType": "0",
+    "IsSave": "false",
+    "Code": "12345678",
+    "NotifyID": "-1",
+    "URL": "https://fc-tradeapi.ssi.com.vn/",
+    "StreamURL": "https://fc-tradehub.ssi.com.vn/",
+    "NewOrderRequest": {
+        "account": "1",
+        "buySell": "2",
+        "channelID": "3",
+        "instrumentID": "4",
+        "market": "5",
+        "orderType": "6",
+        "price": 7,
+        "quantity": 8,
+        "stopOrder": "false",
+        "modifiable": "true",
+        "code": "9",
+        "requestID": 10,
+        "stopPrice": 11,
+        "stopType": "12",
+        "stopStep": 13,
+        "lossStep": 14,
+        "profitStep": 15
+    },
+    "CancelOrderRequest": {
+        "orderID": "string",
+        "account": "1",
+        "marketID": "2",
+        "instrumentID": "3",
+        "buySell": "4",
+        "requestID": "5",
+        "code": "6"
+    },
+
+    "ModifyOrderRequest": {
+        "orderID": "1",
+        "price": 2,
+        "quantity": 3,
+        "account": "4",
+        "instrumentID": "5",
+        "marketID": "6",
+        "buySell": "7",
+        "requestID": "8",
+        "orderType": "9",
+        "code": "10"
+    },
+    "CashAccountBalanceRequest": {
+        "account": "1"
+    },
+    "DerivativeAccountRequest": {
+        "account": "1407101"
+    },
+    "PpmmrAccountRequest": {
+        "account": "1"
+    },
+    "StockPositionRequest": {
+        "account": "1"
+    },
+
+    "DerivativePositionRequest": {
+        "account": "1",
+        "querySummary": "true"
+    },
+
+    "MaxBuyQuantityAccountRequest": {
+        "account": "1",
+        "instrumentID": "2",
+        "price": 3
+    },
+    "MaxSellQuantityRequest": {
+        "account": "1",
+        "instrumentID": "2",
+        "price": 3
+    },
+    "OrderHistoryAccountRequest": {
+        "account": "1",
+        "startDate": "16/08/2022",
+        "endDate": "18/08/2022"
+    }
+
+}
